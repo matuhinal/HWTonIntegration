@@ -3,9 +3,9 @@ namespace HWTonIntegration
     public class Ton
     {
         private readonly ITonClient _tonClient;
-        private const string RootPublic = "rootPublic5";
+        private const string RootPublic = "rootPublic";
         private const string RootPrivate = "rootPrivate";
-        private const string RootTokenContract = "rootontract";
+        private const string RootTokenContract = "rootContract";
 
         private static readonly string App =
             Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
